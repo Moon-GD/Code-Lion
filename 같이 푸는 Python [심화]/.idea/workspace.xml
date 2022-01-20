@@ -32,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.번역기 api">
+  <component name="RunManager" selected="Python.메일 보내기">
     <configuration name="연습 공간 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="같이 푸는 Python [심화]" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,7 +54,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="연습 공간" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="메일 보내기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="같이 푸는 Python [심화]" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,7 +66,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\MoonGD\OneDrive\바탕 화면\Code Lion\같이 푸는 Python [심화]\연습 공간.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/메일 보내기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,6 +161,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.메일 보내기" />
         <item itemvalue="Python.번역기 api" />
         <item itemvalue="Python.연습 공간 (1)" />
         <item itemvalue="Python.날씨 api 활용" />
