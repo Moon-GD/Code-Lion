@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1104f143-c96e-43ee-9690-b2c9054cb05b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/메일 보내기.py" beforeDir="false" afterPath="$PROJECT_DIR$/메일 보내기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/연습 공간.py" beforeDir="false" afterPath="$PROJECT_DIR$/연습 공간.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.메일 보내기">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MoonGD\OneDrive\바탕 화면\Code Lion\같이 푸는 Python [심화]" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.연습 공간 (1)">
     <configuration name="연습 공간 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="같이 푸는 Python [심화]" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,9 +168,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.연습 공간 (1)" />
         <item itemvalue="Python.메일 보내기" />
         <item itemvalue="Python.번역기 api" />
-        <item itemvalue="Python.연습 공간 (1)" />
         <item itemvalue="Python.날씨 api 활용" />
         <item itemvalue="Python.실시간 검색어 순위 확인" />
       </list>
