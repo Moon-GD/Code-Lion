@@ -1,7 +1,7 @@
-import re
-import smtplib
-from email.message import EmailMessage
-import imghdr
+import re  # 정규 표현식 사용을 위한 모듈
+import smtplib  # smtp 연결을 위한 모듈
+from email.message import EmailMessage  # MIME 메일 방식을 사용하기 위한 모듈
+import imghdr  # 이미지 확장자를 읽어오기 위한 모듈
 
 # smtp 연결을 위한 정보
 SMTP_SERVER = "smtp.gmail.com"
