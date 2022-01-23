@@ -13,3 +13,6 @@
  - api를 활용한 날씨 정보 받아오기 (Open Weather Map)
  - 번역기 만들기 (googletrans)
  - 메일 보내기 (SMTP와 IMAC을 활용한 메일 주고 받기)
+4. 일단 만드는 Javascript
+ - 로또 번호 추첨기
+ - 자기소개서 글자 수 계산기
