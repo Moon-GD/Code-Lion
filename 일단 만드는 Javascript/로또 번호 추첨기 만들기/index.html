@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>로또 번호 추첨기</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>로또 번호 추첨기입니다.</h1>
+<script>
+    var lotto = []
+    
+    while(lotto.length != 6)
+    {
+        let new_num = parseInt(Math.random() * 45 + 1)
+        if(lotto.indexOf(new_num) == -1)
+        {
+            lotto.push(new_num)
+        }
+        else {
+            continue
+        }
+    }
+    lotto.sort((a, b)=> a - b)
+    
+    // 공 추가
+    document.write('<div class="ball ball0">' + lotto[0] + '</div>')
+    document.write('<div class="ball ball1">' + lotto[1] + '</div>')
+    document.write('<div class="ball ball2">' + lotto[2] + '</div>')
+    document.write('<div class="ball ball3">' + lotto[3] + '</div>')
+    document.write('<div class="ball ball4">' + lotto[4] + '</div>')
+    document.write('<div class="ball ball5">' + lotto[5] + '</div>')
+    document.write('<br>')
+    document.write(`<p>
+        본문 쓰고 싶으면 작성 가능
+    </p>`)
+</script>
+</body>
+</html>

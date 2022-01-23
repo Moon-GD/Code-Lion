@@ -1,0 +1,39 @@
+.ball {
+    float:left;
+    margin-right: 6px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: black;
+    background-color: #e9e9e9;
+    border-radius: 100%;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    font-weight: 700;
+    vertical-align: center;
+    padding:-20px;
+}
+
+.ball0 {
+    border: 7px solid red;
+}
+
+.ball1 {
+    border: 7px solid orange;
+}
+
+.ball2 {
+    border: 7px solid purple;
+}
+
+.ball3 {
+    border: 7px solid green;
+}
+
+.ball4 {
+    border: 7px solid blue;
+}
+
+.ball5 {
+    border: 7px solid navy;
+}
