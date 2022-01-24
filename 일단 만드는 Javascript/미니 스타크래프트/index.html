@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+main {
+    background: url('./background.png') no-repeat 0 0 /cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#drone {
+    position: absolute;
+    width: 15vw;
+    height: 20vh;
+    top:40vh;
+    left:20vw;
+}
+
+#bunker {
+    position: absolute;
+    top:40vh;
+    left: 70vw;
+    width: 15vw;
+    height: 20vh;
+}
+
+#spit {
+    display:none;
+    position:absolute;
+    width: 10vw;
+    height: 15vh;
+    top:44vh;
+    left:33vw;
+}
+
+#hp {
+    position: absolute;
+    z-index: 2;
+    margin-left: 20px; 
+    top:30vh;
+    left: 73vw;   
+}
+</style>
+</head>
+<body>
+<h1 id="hp">HP : 3</h1>
+<main>
+    <div>
+        <img src="drone.png" alt="drone" id="drone">
+        <img src="bunker.png" alt="bunker" id="bunker">
+        <img src="spit.png" alt="spit" id="spit">
+    </div>
+</main>
+<script 
+    src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous">
+    // jquery cdn import
+</script>
+<script>
+    let hp = 3
+
+    $('#drone').click(()=>{
+        $('#spit').fadeIn()
+
+        $('#spit').animate(
+            {
+                left:"+=30vw"
+            }, 
+
+            function() {
+                $('#spit').fadeOut()
+                hp = hp - 1
+                $('#hp').text('HP : ' + hp)
+                if(hp == 0)
+                {
+                    $('#bunker').fadeOut(()=> {
+                        $('h1').css({
+                        display:"none",
+                    })
+                    })
+                }
+            }, 
+        )
+
+        $('#spit').css({
+            left:"33vw"
+        })
+    })
+</script>
+</body>
+</html>
