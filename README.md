@@ -21,4 +21,4 @@
 5. 세렝게티 동물 mbti 테스트
  - netlify ( 정적인 페이지 배포를 쉽게 해주는 서비스 )
  - addthis ( sns 공유 버튼 cdn을 통해서 용이하게 도와주는 서비스 )
- - adnetwork (kakaoadfit : 광고 배너 중간 다리 서비스)
+ - 광고 추가 : adnetwork (kakaoadfit : 광고 배너 중간 다리 서비스), 혹은 직접 계약 후 광고 배너 추가
