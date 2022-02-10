@@ -25,3 +25,4 @@
  - 웹 어드바이저 : robots.txt를 통해 웹 크롤러에 대한 접근 범위 설정 + sitemap.xml 추가
  - 핵심 SEO(Search Engine Optimization) 처리
  - 최종 결과물 링크 : https://likelion-knu10-moon.netlify.app
+6. 일단 만드는 django
