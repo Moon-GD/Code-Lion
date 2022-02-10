@@ -22,3 +22,6 @@
  - netlify ( 정적인 페이지 배포를 쉽게 해주는 서비스 )
  - addthis ( sns 공유 버튼 cdn을 통해서 용이하게 도와주는 서비스 )
  - 광고 추가 : adnetwork (kakaoadfit : 광고 배너 중간 다리 서비스), 혹은 직접 계약 후 광고 배너 추가
+ - 웹 어드바이저 : robots.txt를 통해 웹 크롤러에 대한 접근 범위 설정 + sitemap.xml 추가
+ - 핵심 SEO(Search Engine Optimization) 처리
+ - 최종 결과물 링크 : https://likelion-knu10-moon.netlify.app
