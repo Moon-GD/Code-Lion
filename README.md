@@ -26,3 +26,5 @@
  - 핵심 SEO(Search Engine Optimization) 처리
  - 최종 결과물 링크 : https://likelion-knu10-moon.netlify.app
 6. 일단 만드는 django
+- URL-Mapping
+- Static 파일 처리
