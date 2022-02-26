@@ -28,3 +28,6 @@
 6. 일단 만드는 django
 - URL-Mapping
 - Static 파일 처리
+- Bootstrap
+- form-data handling
+- make a simple blog by myself (실습)
