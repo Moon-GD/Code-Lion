@@ -18,11 +18,27 @@
     <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
 </head>
 <body class='container'>     
+    <!-- Blog 내용 -->
     <h2 class="page-section-blogs text-uppercase text-secondary mt-2">Author</h2>
     <h5 class="border boder-success page-section-blogs text-uppercase text-secondary">{{ blog.author }}</h5>
     <br>
     <h3 class="page-section-blogs text-uppercase text-secondary">Contents</h3\>
     <h6 class="border boder-success page-section-blogs text-uppercase text-secondary">{{ blog.body }}</h6>
+
+    <!-- Comment 작성 -->
+    <form action="{% url 'comment_create' blog.id %}" method="POST">
+        {% csrf_token %}
+        <table>
+            {{ comment_form.as_table }}
+        </table>
+        <input type="submit" class="btn btn-primary btn-xl" value="댓글 작성">
+    </form>
+
+    <br><br>
+    {% for comment in blog.comment_set.all %} 
+        {{comment}} {{ comment.get_date }}
+        <br>
+    {% endfor %}
 
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
